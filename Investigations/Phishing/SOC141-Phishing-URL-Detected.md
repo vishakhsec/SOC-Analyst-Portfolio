@@ -25,8 +25,8 @@ A phishing URL detection alert fired when the internal host EmilyComp (172.16.17
 
 What I needed to find out:
 
-Is the destination actually malicious?
-Did the user interact with a phishing page?
+Is the destination actually malicious?,
+Did the user interact with a phishing page?,
 Were any credentials or other sensitive data exposed?
 
 
