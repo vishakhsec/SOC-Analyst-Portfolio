@@ -1,7 +1,7 @@
 # LetsDefend Event ID: 86 – SOC141: Phishing URL Detected
 
 
-### Alert Details
+## Alert Details
 
 | Key | Value |
 |---|---|
@@ -19,7 +19,7 @@
 | Device Action | Allowed |
 
 
-### Description
+## Description
 
 A phishing URL detection alert fired when the internal host EmilyComp (172.16.17.49), used by ellie, made an HTTP request to the external domain mogagrocol[.]ru. The URL carried the user’s email address (ellie@letsdefend.io) as a query parameter, and the firewall allowed the request through instead of blocking it.
 
@@ -30,7 +30,7 @@ Did the user interact with a phishing page?
 Were any credentials or other sensitive data exposed?
 
 
-### 2. Investigation Timeline
+## 2. Investigation Timeline
 
 | Date & Time | Activity | Observation |
 |---|---|---|
@@ -74,7 +74,7 @@ I looked for possible suspicious file downloads, unusual process execution, and 
 I also considered whether there was any evidence of credential submission or additional communication with suspicious external destinations. 
 
 
-# 4. MITRE ATT&CK Mapping
+## 4. MITRE ATT&CK Mapping
 
 
 | Tactic | Technique | Technique ID | Evidence |
