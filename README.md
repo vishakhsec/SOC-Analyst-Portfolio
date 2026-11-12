@@ -15,11 +15,14 @@ I'm building this portfolio through self-directed learning and hands-on practice
 
 **Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
 
-What This Portfolio Demonstrates
+# ## What This Portfolio Demonstrates
 
-    Incident Triage — assessing alerts to determine severity, scope, and validity (True Positive vs. False Positive)
-    Log Analysis — correlating data across SIEM, EDR, firewall, web proxy, and email/Exchange logs to reconstruct full attack chains
-    Threat Intelligence Correlation — using VirusTotal and AbuseIPDB to enrich indicators and confirm malicious infrastructure
-    MITRE ATT&CK Mapping — identifying the specific tactics and techniques behind each attack
-    Clear, Evidence-Based Reporting — distinguishing what the evidence actually confirms from what remains an open question, rather than overstating findings
+- **Incident Triage** — analysing security alerts to assess severity, investigate suspicious activities, and determine whether an alert is a True Positive or False Positive.
 
+- **Log Analysis** — examining and correlating security logs to identify suspicious activities, investigate security events, and understand potential attack sequences.
+
+- **Threat Intelligence Analysis** — using VirusTotal and AbuseIPDB to investigate Indicators of Compromise (IOCs), analyse suspicious IP addresses, domains, URLs, and file hashes.
+
+- **MITRE ATT&CK Mapping** — identifying relevant attacker tactics and techniques based on observed activities during security investigations.
+
+- **Evidence-Based Reporting** — documenting investigation steps, analysing available evidence, presenting findings, and distinguishing confirmed facts from assumptions or unresolved questions.
