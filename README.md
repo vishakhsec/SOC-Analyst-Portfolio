@@ -5,8 +5,12 @@ Each case below is a real investigation I worked through myself, using LetsDefen
 
 # About Me
 
+## About Me
+
 I'm Vishakh, a recent B.Sc. Computer Science graduate transitioning into a SOC Analyst role. I have completed an Advanced Diploma in Cyber Defense (ADCD) from RedTeam Hacker Academy and hold a Certified Ethical Hacker (CEH) certification.
 
-I'm building my cybersecurity portfolio through self-directed learning and hands-on practice, focusing on SOC operations, security alert investigation, phishing email analysis, log analysis, and threat detection. I investigate simulated security alerts, explore attacker techniques, practice defensive and offensive security concepts, and map suspicious activities to the MITRE ATT&CK framework.
+I'm building this portfolio through self-directed learning and hands-on practice, focusing on SOC operations, security alert investigations, phishing email analysis, log analysis, and threat detection. I investigate simulated security alerts, research attacker techniques, practise defensive security concepts, and map suspicious activities to the MITRE ATT&CK framework while developing the skills required to work in a real Security Operations Center (SOC).
 
-**Practice Platforms:** LetsDefend (SOC alert investigation) · TryHackMe (cybersecurity labs) · Hack The Box (hands-on security challenges) · CyberDefenders (blue-team investigations and threat hunting)
+**Certifications:** Certified Ethical Hacker (CEH) · Advanced Diploma in Cyber Defense (ADCD)
+
+**Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
