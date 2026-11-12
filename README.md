@@ -63,12 +63,14 @@ Every case in this repository follows the same structure:
 - **Research/Review Aid:** Claude (Anthropic) — Used to research unfamiliar attacker techniques and malware families, and to review my draft findings for gaps, imprecise claims, or missed evidence before finalizing each writeup.
 
 # Repository Structure
-- SOC-Analyst-Writeups/
+## Repository Structure
+
+```text
+SOC-Analyst-Writeups/
 │
 ├── README.md
 │
 ├── Investigations/
-│   │
 │   ├── Brute-Force/
 │   │   ├── SOC176-RDP-Brute-Force.md
 │   │   └── SOC-XXX-SSH-Brute-Force.md
@@ -89,7 +91,24 @@ Every case in this repository follows the same structure:
 │   └── Data-Leakage/
 │       ├── SOC-XXX-Data-Exfiltration.md
 │       └── SOC-XXX-Suspicious-Data-Transfer.md
-│────  Practice-Labs/
+│
+├── Practice-Labs/
+│   ├── LetsDefend/
+│   └── TryHackMe/
+│
+├── Projects/
+│   ├── SIEM-Log-Analysis/
+│   ├── Phishing-Email-Analysis/
+│   └── Network-Traffic-Analysis/
+│
+├── Screenshots/
+│   ├── SOC176/
+│   ├── SOC-XXX/
+│   └── SOC-YYY/
+│
+└── Templates/
+    └── Investigation-Template.md
+```
 
 # Connect
 
