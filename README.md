@@ -15,7 +15,7 @@ I'm building this portfolio through self-directed learning and hands-on practice
 
 **Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
 
-# ## What This Portfolio Demonstrates
+#  What This Portfolio Demonstrates
 
 - **Incident Triage** — analysing security alerts to assess severity, investigate suspicious activities, and determine whether an alert is a True Positive or False Positive.
 
