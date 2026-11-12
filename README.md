@@ -41,3 +41,58 @@ This section documents phishing-related security alert investigations completed 
 | 06 | TBD | QR Code Phishing (Quishing) | Phishing | URL Investigation, Threat Intelligence |
 
 *Portfolio in progress — additional phishing investigations will be added as I complete and document more LetsDefend labs.*
+
+## Investigation Methodology
+
+Every case in this repository follows the same structure:
+
+1. **Alert Summary** — What triggered the alert and the initial context.
+2. **Investigation Timeline** — Reconstructed chronology of the attack.
+3. **Investigation Steps** — Log analysis across SIEM, EDR, firewall, proxy, and email sources, supported by evidence screenshots.
+4. **Threat Intelligence Enrichment** — IOC lookups using VirusTotal and AbuseIPDB, including crowdsourced threat context where available.
+5. **MITRE ATT&CK Mapping** — Identification of relevant attacker tactics and techniques.
+6. **Verdict** — True Positive or False Positive determination with clear reasoning, distinguishing confirmed findings from unconfirmed or open items.
+7. **Containment & Recommendations** — Prioritized response actions and security recommendations.
+8. **Closure Note** — A concise investigation summary suitable for ticket closure.
+
+9. ## Tools Used
+
+- **SIEM / Log Management:** LetsDefend platform (Exchange, Proxy, Firewall, OS/Windows Event logs, EDR process telemetry).
+- **Threat Intelligence:** VirusTotal, AbuseIPDB.
+- **Frameworks:** MITRE ATT&CK.
+- **Research/Review Aid:** Claude (Anthropic) — Used to research unfamiliar attacker techniques and malware families, and to review my draft findings for gaps, imprecise claims, or missed evidence before finalizing each writeup.
+
+# Repository Structure
+- SOC-Analyst-Writeups/
+│
+├── README.md
+│
+├── Investigations/
+│   │
+│   ├── Brute-Force/
+│   │   ├── SOC176-RDP-Brute-Force.md
+│   │   └── SOC-XXX-SSH-Brute-Force.md
+│   │
+│   ├── Phishing/
+│   │   ├── SOC-XXX-Phishing-Email.md
+│   │   └── SOC-XXX-Email-Spoofing.md
+│   │
+│   ├── Malware/
+│   │   ├── SOC-XXX-Malware-Detected.md
+│   │   └── SOC-XXX-Suspicious-File.md
+│   │
+│   ├── Web-Attacks/
+│   │   ├── SOC-XXX-SQL-Injection.md
+│   │   ├── SOC-XXX-XSS-Attack.md
+│   │   └── SOC-XXX-Directory-Traversal.md
+│   │
+│   └── Data-Leakage/
+│       ├── SOC-XXX-Data-Exfiltration.md
+│       └── SOC-XXX-Suspicious-Data-Transfer.md
+│────  Practice-Labs/
+
+# Connect
+
+  LinkedIn: 
+   Email: 
+
