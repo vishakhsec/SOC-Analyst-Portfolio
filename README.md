@@ -1,8 +1,8 @@
-# SOC-Analyst-Portfolio
-A portfolio of hands-on security alert investigations practiced on the [LetsDefend](https://letsdefend.io/) platform. This repository documents my approach to SIEM monitoring, log correlation, and incident response in a simulated Security Operations Center (SOC) environment, as I work toward a career as a SOC Analyst.
+# SOC Analyst Investigation Writeups
 
-Each case below is a real investigation I worked through myself, using LetsDefend's SIEM, EDR, email security, and log management tools. I used AI-assisted research and review (Claude) as a learning aid throughout — to help me understand attacker techniques and malware families I hadn't encountered before, catch gaps or imprecise reasoning in my analysis, and structure the final writeups — but the underlying investigation (reading the logs, pulling and correlating evidence, reaching a verdict) is my own work.
-
+A collection of hands-on security alert investigations completed using the [LetsDefend](https://letsdefend.io/) platform. This repository documents my practical learning and investigation approach to SIEM monitoring, log analysis, threat intelligence, and incident response in a simulated Security Operations Center (SOC) environment.
+Each writeup documents my investigation process, including alert triage, log analysis, evidence collection, IOC investigation, MITRE ATT&CK mapping, verdict determination, and recommended response actions.
+I also use AI-assisted research and review (Claude) as a learning aid to understand unfamiliar attacker techniques and malware families, review my findings, and identify potential gaps in my investigation. All investigation evidence, analysis, and final conclusions are reviewed and verified by me.
 # About Me
 
 ## About Me
