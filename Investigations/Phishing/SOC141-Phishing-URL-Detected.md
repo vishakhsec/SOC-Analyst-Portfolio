@@ -1,7 +1,7 @@
 # LetsDefend Event ID: 86 – SOC141: Phishing URL Detected
 
 
-## Alert Details
+## 1. Alert Details
 
 | Key | Value |
 |---|---|
