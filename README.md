@@ -1,6 +1,6 @@
-SOC Analyst Investigation Writeups
+# SOC Analyst Investigation Writeups
 
-These are hands-on alert investigations I’ve worked through on LetsDefend, a platform that simulates a real SOC. I use this repo to practice SIEM monitoring, log analysis, threat intelligence, and incident response, and to show how I approach each one.
+These are hands-on alert investigations I’ve worked through on [LetsDefend](https://letsdefend.io/), a platform that simulates a real SOC. I use this repo to practice SIEM monitoring, log analysis, threat intelligence, and incident response, and to show how I approach each one.
 Each writeup walks through how I handled the alert: triage, log analysis, evidence collection, IOC checks, MITRE ATT&CK mapping, my verdict, and the response actions I’d recommend.
 I use Claude as a study aid, mostly to understand attacker techniques and malware families I haven’t run into before, and to check my findings for gaps I might have missed. The investigation, evidence, and conclusions are my own, and I verify all of it myself.
 
@@ -8,14 +8,13 @@ I use Claude as a study aid, mostly to understand attacker techniques and malwar
 
 # About Me
 
-I'm Vishakh, a recent B.Sc. Computer Science graduate transitioning into a SOC Analyst role. I have completed an Advanced Diploma in Cyber Defense (ADCD) from RedTeam Hacker Academy and hold a Certified Ethical Hacker (CEH) certification.
+I’m Vishakh, a recent B.Sc. Computer Science graduate moving into a SOC Analyst role. I completed the Advanced Diploma in Cyber Defense (ADCD) at RedTeam Hacker Academy and hold the Certified Ethical Hacker (CEH) certification.
 
-I'm building this portfolio through self-directed learning and hands-on practice, focusing on SOC operations, security alert investigations, phishing email analysis, log analysis, and threat detection. I investigate simulated security alerts, research attacker techniques, practise defensive security concepts, and map suspicious activities to the MITRE ATT&CK framework while developing the skills required to work in a real Security Operations Center (SOC).
+This portfolio is where I practice and show my work. I investigate simulated security alerts, dig into attacker techniques I’m unfamiliar with, and map what I find to the MITRE ATT&CK framework. My main focus is SOC operations, phishing email analysis, log analysis, and threat detection, which are the skills I’d use day to day in a real SOC.
 
-**Certifications:** Certified Ethical Hacker (CEH) · Advanced Diploma in Cyber Defense (ADCD)
+Certifications: Certified Ethical Hacker (CEH) · Advanced Diploma in Cyber Defense (ADCD)
 
-**Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
-
+Where I practice:[LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (security labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on challenges) · [CyberDefenders](https://cyberdefenders.org/)  (Blue Team investigations and threat hunting)
 
 
 
