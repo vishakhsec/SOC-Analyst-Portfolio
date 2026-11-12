@@ -14,3 +14,12 @@ I'm building this portfolio through self-directed learning and hands-on practice
 **Certifications:** Certified Ethical Hacker (CEH) · Advanced Diploma in Cyber Defense (ADCD)
 
 **Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
+
+What This Portfolio Demonstrates
+
+    Incident Triage — assessing alerts to determine severity, scope, and validity (True Positive vs. False Positive)
+    Log Analysis — correlating data across SIEM, EDR, firewall, web proxy, and email/Exchange logs to reconstruct full attack chains
+    Threat Intelligence Correlation — using VirusTotal and AbuseIPDB to enrich indicators and confirm malicious infrastructure
+    MITRE ATT&CK Mapping — identifying the specific tactics and techniques behind each attack
+    Clear, Evidence-Based Reporting — distinguishing what the evidence actually confirms from what remains an open question, rather than overstating findings
+
