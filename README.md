@@ -84,12 +84,13 @@ SOC-Analyst-Writeups/
 ├── README.md
 │
 ├── Investigations/
+│   │
 │   ├── Brute-Force/
 │   │   ├── SOC176-RDP-Brute-Force.md
 │   │   └── SOC-XXX-SSH-Brute-Force.md
 │   │
 │   ├── Phishing/
-│   │   ├── SOC-XXX-Phishing-Email.md
+│   │   ├── SOC282-Phishing-Alert.md
 │   │   └── SOC-XXX-Email-Spoofing.md
 │   │
 │   ├── Malware/
@@ -105,28 +106,20 @@ SOC-Analyst-Writeups/
 │       ├── SOC-XXX-Data-Exfiltration.md
 │       └── SOC-XXX-Suspicious-Data-Transfer.md
 │
-├── Practice-Labs/
-│   ├── LetsDefend/
-│   └── TryHackMe/
-│
-├── Projects/
-│   ├── SIEM-Log-Analysis/
-│   ├── Phishing-Email-Analysis/
-│   └── Network-Traffic-Analysis/
-│
 ├── Screenshots/
+│   │
 │   ├── SOC176/
-│   ├── SOC-XXX/
-│   └── SOC-YYY/
+│   ├── SOC282/
+│   └── SOC-XXX/
 │
 └── Templates/
     └── Investigation-Template.md
 ```
 
 
+ # Connect
 
-# Connect
-
-  LinkedIn: 
-   Email: 
+- **LinkedIn:** [Your LinkedIn Profile](YOUR_LINKEDIN_URL)
+- **Email:** YOUR_EMAIL
+- **GitHub:** [Your GitHub Profile](YOUR_GITHUB_URL)
 
