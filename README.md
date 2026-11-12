@@ -4,7 +4,9 @@ A collection of hands-on security alert investigations completed using the [Lets
 Each writeup documents my investigation process, including alert triage, log analysis, evidence collection, IOC investigation, MITRE ATT&CK mapping, verdict determination, and recommended response actions.
 I also use AI-assisted research and review (Claude) as a learning aid to understand unfamiliar attacker techniques and malware families, review my findings, and identify potential gaps in my investigation. All investigation evidence, analysis, and final conclusions are reviewed and verified by me.
 
-## About Me
+
+
+# About Me
 
 I'm Vishakh, a recent B.Sc. Computer Science graduate transitioning into a SOC Analyst role. I have completed an Advanced Diploma in Cyber Defense (ADCD) from RedTeam Hacker Academy and hold a Certified Ethical Hacker (CEH) certification.
 
@@ -13,6 +15,9 @@ I'm building this portfolio through self-directed learning and hands-on practice
 **Certifications:** Certified Ethical Hacker (CEH) · Advanced Diploma in Cyber Defense (ADCD)
 
 **Practice Platforms:** [LetsDefend](https://letsdefend.io/) (SOC alert investigation) · [TryHackMe](https://tryhackme.com/) (cybersecurity labs) · [Hack The Box](https://www.hackthebox.com/) (hands-on security challenges) · [CyberDefenders](https://cyberdefenders.org/) (Blue Team investigations and threat hunting)
+
+
+
 
 #  What This Portfolio Demonstrates
 
@@ -25,6 +30,9 @@ I'm building this portfolio through self-directed learning and hands-on practice
 - **MITRE ATT&CK Mapping** — identifying relevant attacker tactics and techniques based on observed activities during security investigations.
 
 - **Evidence-Based Reporting** — documenting investigation steps, analysing available evidence, presenting findings, and distinguishing confirmed facts from assumptions or unresolved questions.
+
+
+
 
 - ## Investigation Index – Phishing Analysis
 
@@ -41,6 +49,9 @@ This section documents phishing-related security alert investigations completed 
 
 *Portfolio in progress — additional phishing investigations will be added as I complete and document more LetsDefend labs.*
 
+
+
+
 ## Investigation Methodology
 
 Every case in this repository follows the same structure:
@@ -53,13 +64,17 @@ Every case in this repository follows the same structure:
 6. **Verdict** — True Positive or False Positive determination with clear reasoning, distinguishing confirmed findings from unconfirmed or open items.
 7. **Containment & Recommendations** — Prioritized response actions and security recommendations.
 8. **Closure Note** — A concise investigation summary suitable for ticket closure.
+   
 
-9. ## Tools Used
+
+10. ## Tools Used
 
 - **SIEM / Log Management:** LetsDefend platform (Exchange, Proxy, Firewall, OS/Windows Event logs, EDR process telemetry).
 - **Threat Intelligence:** VirusTotal, AbuseIPDB.
 - **Frameworks:** MITRE ATT&CK.
 - **Research/Review Aid:** Claude (Anthropic) — Used to research unfamiliar attacker techniques and malware families, and to review my draft findings for gaps, imprecise claims, or missed evidence before finalizing each writeup.
+
+
 
 # Repository Structure
 ## Repository Structure
@@ -108,6 +123,8 @@ SOC-Analyst-Writeups/
 └── Templates/
     └── Investigation-Template.md
 ```
+
+
 
 # Connect
 
