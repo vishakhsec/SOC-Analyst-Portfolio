@@ -3,7 +3,6 @@
 A collection of hands-on security alert investigations completed using the [LetsDefend](https://letsdefend.io/) platform. This repository documents my practical learning and investigation approach to SIEM monitoring, log analysis, threat intelligence, and incident response in a simulated Security Operations Center (SOC) environment.
 Each writeup documents my investigation process, including alert triage, log analysis, evidence collection, IOC investigation, MITRE ATT&CK mapping, verdict determination, and recommended response actions.
 I also use AI-assisted research and review (Claude) as a learning aid to understand unfamiliar attacker techniques and malware families, review my findings, and identify potential gaps in my investigation. All investigation evidence, analysis, and final conclusions are reviewed and verified by me.
-# About Me
 
 ## About Me
 
