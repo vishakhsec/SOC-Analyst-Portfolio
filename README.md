@@ -26,3 +26,18 @@ I'm building this portfolio through self-directed learning and hands-on practice
 - **MITRE ATT&CK Mapping** — identifying relevant attacker tactics and techniques based on observed activities during security investigations.
 
 - **Evidence-Based Reporting** — documenting investigation steps, analysing available evidence, presenting findings, and distinguishing confirmed facts from assumptions or unresolved questions.
+
+- ## Investigation Index – Phishing Analysis
+
+This section documents phishing-related security alert investigations completed through the LetsDefend platform. Each investigation focuses on analysing suspicious emails, identifying malicious indicators, examining attacker techniques, and understanding appropriate incident response actions.
+
+| No. | Alert ID | Investigation Title | Category | Key Skills |
+|---|---|---|---|---|
+| 01 | SOC282 | Phishing Alert | Phishing | Email Analysis, IOC Investigation |
+| 02 | TBD | Phishing Email Analysis | Phishing | Email Header Analysis, SPF, DKIM, DMARC |
+| 03 | TBD | Suspicious URL Detection | Phishing | URL Analysis, VirusTotal |
+| 04 | TBD | Malicious Attachment Detection | Phishing | File Hash Analysis, Malware Investigation |
+| 05 | TBD | Email Spoofing Detection | Phishing | Sender Verification, Email Authentication |
+| 06 | TBD | QR Code Phishing (Quishing) | Phishing | URL Investigation, Threat Intelligence |
+
+*Portfolio in progress — additional phishing investigations will be added as I complete and document more LetsDefend labs.*
