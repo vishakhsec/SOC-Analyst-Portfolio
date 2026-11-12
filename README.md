@@ -1,8 +1,8 @@
-# SOC Analyst Investigation Writeups
+SOC Analyst Investigation Writeups
 
-A collection of hands-on security alert investigations completed using the [LetsDefend](https://letsdefend.io/) platform. This repository documents my practical learning and investigation approach to SIEM monitoring, log analysis, threat intelligence, and incident response in a simulated Security Operations Center (SOC) environment.
-Each writeup documents my investigation process, including alert triage, log analysis, evidence collection, IOC investigation, MITRE ATT&CK mapping, verdict determination, and recommended response actions.
-I also use AI-assisted research and review (Claude) as a learning aid to understand unfamiliar attacker techniques and malware families, review my findings, and identify potential gaps in my investigation. All investigation evidence, analysis, and final conclusions are reviewed and verified by me.
+These are hands-on alert investigations I’ve worked through on LetsDefend, a platform that simulates a real SOC. I use this repo to practice SIEM monitoring, log analysis, threat intelligence, and incident response, and to show how I approach each one.
+Each writeup walks through how I handled the alert: triage, log analysis, evidence collection, IOC checks, MITRE ATT&CK mapping, my verdict, and the response actions I’d recommend.
+I use Claude as a study aid, mostly to understand attacker techniques and malware families I haven’t run into before, and to check my findings for gaps I might have missed. The investigation, evidence, and conclusions are my own, and I verify all of it myself.
 
 
 
