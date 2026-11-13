@@ -41,37 +41,53 @@ Were any credentials or other sensitive data exposed?
 
 ## 3. Investigation Steps
 
+## 3. Investigation Steps
+
 ### Step 1: Reviewing the Alert
 
-I started by reviewing the alert details in LetsDefend to understand what triggered the detection. I identified the source IP address, destination IP address, hostname, username, and suspicious URL involved in the activity.
+First, I reviewed the SOC141 alert in LetsDefend to understand why it was triggered. I collected the important details from the alert.
 
-I also checked the device action, which was recorded as **Allowed**, indicating that the request was permitted by the security device.
+- **Hostname:** EmilyComp
+- **Username:** ellie
+- **Source IP:** `172.16.17.49`
+- **Destination IP:** `91.189.114.8`
+- **Destination Domain:** `mogagrocol.ru`
+- **Suspicious URL:** `http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io`
+- **Event Time:** March 22, 2021, 9:23 PM
+- **Device Action:** Allowed
+
+I noticed that the internal device `EmilyComp` made a request to the external domain `mogagrocol.ru`. The device action was marked as Allowed, meaning the connection was not blocked.
 
 ### Step 2: Investigating the Suspicious URL
 
-Next, I focused on the suspicious URL and destination domain (`mogagrocol.ru`). I examined the URL structure and noticed that the user's email address was included as a query parameter.
+Next, I investigated the URL `http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io` and its destination domain `mogagrocol.ru`.
 
-I wanted to determine whether the domain or URL was associated with phishing activities or other malicious behaviour.
+I also identified the destination IP address `91.189.114.8` for further investigation.
 
 ### Step 3: Checking Threat Intelligence
 
-I identified the available Indicators of Compromise (IOCs), including the destination IP address, domain, and complete URL.
+I used VirusTotal to check the reputation of the suspicious URL, domain, and destination IP address. I also used AbuseIPDB to investigate the reputation of `91.189.114.8`.
 
-I used VirusTotal to examine the reputation of the URL and domain and review available security vendor detections. I also used AbuseIPDB to investigate the reputation of the destination IP address.
+I reviewed the available security vendor results to understand whether these indicators were associated with malicious activity.
 
-### Step 4: Reviewing Network and Email Activity
+### Step 4: Reviewing Network and Email Logs
 
-I reviewed the available network and email logs to understand how the user reached the suspicious website.
+After checking the threat intelligence results, I reviewed the available network and email logs to understand how the user `ellie` accessed the suspicious URL.
 
-I focused on identifying related email activity, previous requests to the domain, and any additional suspicious connections associated with the affected device.
+I also checked for other connections to the destination IP `91.189.114.8` to identify whether any other users or devices had communicated with it.
 
-### Step 5: Checking User and Endpoint Activity
+### Step 5: Checking Endpoint Activity
 
-Finally, I focused on the activities associated with the affected user (`ellie`) and hostname (`EmilyComp`).
+I reviewed the EDR logs for the affected device `EmilyComp` (`172.16.17.49`). I looked for suspicious file downloads, unusual process activity, and additional network connections.
 
-I looked for possible suspicious file downloads, unusual process execution, and other activities that could indicate further compromise.
+I also checked whether there was any sign of further suspicious activity on the device.
 
-I also considered whether there was any evidence of credential submission or additional communication with suspicious external destinations. 
+### Step 6: Containment
+
+Based on the investigation findings, I recommended blocking the suspicious domain `mogagrocol.ru` and destination IP `91.189.114.8` to prevent further communication.
+
+I also recommended checking the affected device and user account for any signs of compromise.
+
 
 
 ## 4. MITRE ATT&CK Mapping
